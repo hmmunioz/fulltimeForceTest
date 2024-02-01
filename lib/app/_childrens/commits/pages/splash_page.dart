@@ -136,7 +136,7 @@ class SplashScreenPageState extends State<SplashScreenPage>
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          translate('enter'), // Second text
+                          translate('enter'),
                           style: TextStyle(
                             fontSize: size.width * .040,
                             color: Colors.white,
