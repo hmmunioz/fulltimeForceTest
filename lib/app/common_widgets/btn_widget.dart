@@ -21,12 +21,15 @@ class ButtonCustom extends StatelessWidget {
       child: ElevatedButton(
         child: Text(label, style: TextStyle(fontSize: fontSize)),
         style: ButtonStyle(
-            foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
-            backgroundColor: MaterialStateProperty.all<Color>(color),
-            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                RoundedRectangleBorder(
-                    borderRadius: const BorderRadius.all(Radius.circular(25)),
-                    side: BorderSide(color: color)))),
+          foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+          backgroundColor: MaterialStateProperty.all<Color>(color),
+          shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+            RoundedRectangleBorder(
+              borderRadius: const BorderRadius.all(Radius.circular(25)),
+              side: BorderSide(color: color),
+            ),
+          ),
+        ),
         onPressed: onTap,
       ),
     );
