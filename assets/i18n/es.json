@@ -7,14 +7,14 @@
     "loadingPoints" : "Cargando...",
     "wellcome" : "Bienvenido al Test de FulltimeForce",
     "enter" : "Entrar",
-    "search" : "Buscar...",
     "results":"Resultados:",
     "info":"Información",
     "language":"Lenguaje",
     "view":"Ver",
     "title":"Título",
-    "copytext":"Copiado al portapapeles",
     "open":"Abrir",
     "repo":"Repo",
-    "owner":"User"
+    "owner":"User",
+    "profile":"Perfil",
+    "commit_detail":"Detalle del Commit"
 }

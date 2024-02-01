@@ -11,8 +11,11 @@ import '../../../theme/theme_notifier.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 class CommitDetailPage extends StatefulWidget {
-  const CommitDetailPage({Key? key, required this.urlCommit}) : super(key: key);
+  const CommitDetailPage(
+      {Key? key, required this.urlCommit, required this.title})
+      : super(key: key);
   final String urlCommit;
+  final String title;
   @override
   CommitDetailPageState createState() => CommitDetailPageState();
 }
@@ -71,7 +74,7 @@ class CommitDetailPageState extends State<CommitDetailPage>
       child: Scaffold(
         appBar: PreferredSize(
           child: AppBarTest(
-            text: translate('commits'),
+            text: widget.title,
           ),
           preferredSize: Size.fromHeight(size.height * .06),
         ),

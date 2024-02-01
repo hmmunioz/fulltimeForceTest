@@ -6,15 +6,15 @@
     "nameUser" : "Mauricio Muñoz",
     "loadingPoints" : "Loading...",
     "wellcome" : "Wellcome to FulltimeForce Test",
-    "enter" : "Enter",
-    "search" : "Search...",  
+    "enter" : "Enter", 
     "results":"Result:",
     "info":"Info",
     "language":"Language",
     "view":"View",
     "title":"Title",
-    "copytext":"Copy to clipboard",
     "open":"Open",
     "repo":"Repo",
-    "owner":"User"
+    "owner":"User",
+    "profile":"Profile",
+    "commit_detail":"Commit Detail"
   }

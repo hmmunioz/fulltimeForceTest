@@ -1,10 +1,18 @@
 # FulltimeForce Test
 
 This is a test application for the FulltimeForce company, which consists of showing a list of cards with a commits information, like author, message, date and other data with pagination and pull refresh.
+
 ## How to Use
 
 **Step 1:**
-- [fvm flutter version v3.0.0] Use this Flutter version to execute the project (use fvm for flutter versions managment). 
+
+- [fvm flutter version v3.0.0] Use this Flutter version to execute the project (use fvm for flutter versions managment).
+  Install fvm and use the command "fvm use 3.0.0" in project terminal root, or download 3.0.0v directly from
+
+```
+https://flutter-ko.dev/development/tools/sdk/releases
+```
+
 Download or clone this repo by using the link below:
 
 ```
@@ -14,11 +22,11 @@ git@github.com:hmmunioz/fulltimeForceTest.git
 **Step 2:**
 
 if you want to changing a repo you need modify 2 values in constants.dart file
+
 ```
   static const owner = 'hmmunioz';
   static const repo = 'fulltimeForceTest';
 ```
-
 
 Go to project root and execute the following command in console to get the required dependencies:
 
@@ -38,7 +46,6 @@ flutter run
 - Detail Commits
 - Detail Profile
 
-
 ### Libraries & Tools Used
 
 - [fvm flutter version v3.0.0] Use this Flutter version to execute the project (use fvm for flutter versions managment)
@@ -57,7 +64,6 @@ flutter run
 - [provider](https://pub.dev/packages/provider)
 - [bloc_test](https://pub.dev/packages/bloc_test)
 - [responsive_framework](https://pub.dev/packages/responsive_framework)
-
 
 ### Folder Structure
 
@@ -92,5 +98,3 @@ lib/
   |- utils/
 |- main.dart
 ```
-
-

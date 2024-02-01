@@ -243,6 +243,7 @@ class _DataProfile extends StatelessWidget {
               MaterialPageRoute(
                 builder: (context) => CommitDetailPage(
                   urlCommit: profileUrl,
+                  title: translate("Profiile"),
                 ),
               ),
             );
@@ -321,6 +322,7 @@ class _ButtonGoToBrowser extends StatelessWidget {
             MaterialPageRoute(
               builder: (context) => CommitDetailPage(
                 urlCommit: url,
+                title: translate("commit_detail"),
               ),
             ),
           );
