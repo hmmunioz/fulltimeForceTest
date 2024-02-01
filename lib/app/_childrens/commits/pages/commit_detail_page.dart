@@ -1,4 +1,3 @@
-import 'package:flutter_translate/flutter_translate.dart';
 import 'package:fulltimeforce_test/app/constants/utils_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
