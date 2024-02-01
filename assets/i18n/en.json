@@ -1,0 +1,20 @@
+{
+    "fulltimeforceTest" : "FulltimeForce Test",
+    "commits" : "Commits",
+    "resultNoFound" : "Result no Found",
+    "tryAgain" : "An error ocurred, try again please",
+    "nameUser" : "Mauricio Muñoz",
+    "loadingPoints" : "Loading...",
+    "wellcome" : "Wellcome to FulltimeForce Test",
+    "enter" : "Enter",
+    "search" : "Search...",  
+    "results":"Result:",
+    "info":"Info",
+    "language":"Language",
+    "view":"View",
+    "title":"Title",
+    "copytext":"Copy to clipboard",
+    "open":"Open",
+    "repo":"Repo",
+    "owner":"User"
+  }
