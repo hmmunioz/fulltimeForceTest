@@ -4,7 +4,7 @@ This is a test application for the FulltimeForce company, which consists of show
 ## How to Use
 
 **Step 1:**
-
+- [fvm flutter version v3.0.0] Use this Flutter version to execute the project (use fvm for flutter versions managment). 
 Download or clone this repo by using the link below:
 
 ```
