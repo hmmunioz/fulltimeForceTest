@@ -32,9 +32,9 @@ if you want to changing a repo you need modify 2 values in constants.dart file
 Go to project root and execute the following command in console to get the required dependencies:
 
 ```
-flutter clean
-flutter pub upgade
-flutter pub get
+flutter clean (or "fvm flutter clean "if use FVM)
+flutter pub upgade (or "fvm flutter pub upgrade" if use FVM)
+flutter pub get (or "fvm flutter pub get" if use FVM)
 
 
 Run:
