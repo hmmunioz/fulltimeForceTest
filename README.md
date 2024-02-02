@@ -14,6 +14,9 @@ click in photo to show a user profile in a webview, and click 'open' button tu s
 https://flutter-ko.dev/development/tools/sdk/releases
 ```
 
+How to install FVM (If necessary)
+- [fvm](https://fvm.app/es/docs/guides/global_version/)
+
 Download or clone this repo by using the link below:
 
 ```
@@ -40,7 +43,10 @@ flutter pub get (or "fvm flutter pub get" if use FVM)
 Run:
 flutter run
 ```
-
+in case the models have not been generated you can use the following command to remove the error in the models
+```
+ flutter pub run build_runner build (or fvm flutter pub run build_runner build if use FVM)
+```
 ## FulltimeForce Features:
 
 - Commits
