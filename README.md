@@ -47,6 +47,7 @@ in case the models have not been generated you can use the following command to 
 ```
  flutter pub run build_runner build (or fvm flutter pub run build_runner build if use FVM)
 ```
+Only for ios, if exist build problems, upgrade de minimum deployments for targets pods in xcode to 12.o
 ## FulltimeForce Features:
 
 - Commits
