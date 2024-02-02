@@ -311,22 +311,22 @@ class _ButtonGoToBrowser extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
-    return Container(
-      color: Colors.grey,
-      height: size.height * .02,
-      alignment: Alignment.center,
-      child: InkWell(
-        onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => CommitDetailPage(
-                urlCommit: url,
-                title: translate("commit_detail"),
-              ),
+    return InkWell(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => CommitDetailPage(
+              urlCommit: url,
+              title: translate("commit_detail"),
             ),
-          );
-        },
+          ),
+        );
+      },
+      child: Container(
+        color: Colors.grey,
+        height: size.height * .02,
+        alignment: Alignment.center,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
