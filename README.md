@@ -1,7 +1,7 @@
 # FulltimeForce Test
 
 This is a test application for the FulltimeForce company, which consists of showing a list of cards with a commits information, like author, message, date and other data with pagination and pull refresh,
-click in photo to show a user profile in a webview, and click 'open' button tu show a commit details
+click in photo to show a user profile in a webview, and click 'open' button to show a commit details
 
 ## How to Use
 
